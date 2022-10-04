@@ -1,0 +1,24 @@
+// Logiske uttrykk går ut på å sammenlikne to variabler med tegnene ==, !=, <, >, <=, >=:
+https://www.cs.hioa.no/~evav/uvstoff/intro/kap2.html#relop
+
+tall1 == tall2   tall1 er lik tall2
+tall1 != tall2   tall1 er ikke lik tall2     
+
+tall1 < tall2    tall1 er mindre enn tall2
+tall1 > tall2    tall1 er større enn tall2
+        
+tall1 <= tall2   tall1 er mindre eller lik tall2
+tall1 >= tall2   tall1 er større eller lik tall2 
+
+// Et eksempel med verdier for tallene tall1 og tall2 gir resultatet av det logiske uttrykk enten true (sant) eller false (usant).
+
+med tall1 = 2 og tall2 = 3    
+
+tall1 == tall2 : false
+tall1 != tall2 : true
+tall1 < tall2  : true
+tall1 > tall2  : false
+tall1 <=tall2  : true
+tall1 >= tall2 : false
+
+Merk: Det overstående er ikke fungerende kode, men et eksempel på hva de ulike uttrykkene blir med to eksempel tall. 

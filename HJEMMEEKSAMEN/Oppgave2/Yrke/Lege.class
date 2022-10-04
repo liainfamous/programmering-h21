@@ -1,0 +1,18 @@
+class Lege extends Person {
+    public Pasient[] pasienter = new Pasient[100];
+
+    public Lege(String navn, String personnummer, int alder) {
+        super(navn, personnummer, alder);
+    }
+
+    public String toString() {
+        String ut = "";
+        for(Pasient enPasient : pasienter) {
+            if(enPasient != null) {
+                ut += enPasient;
+            }
+        }
+        return "Lege: \n" +
+                super.toString() + ut;
+    }
+}

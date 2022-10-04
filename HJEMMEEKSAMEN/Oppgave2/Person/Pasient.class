@@ -1,0 +1,14 @@
+class Pasient extends Person {
+    public String diagnose;
+
+    public Pasient(String navn, String personnummer, int alder, String diagnose) {
+        super(navn, personnummer, alder);
+        this.diagnose = diagnose;
+    }
+
+    public String toString() {
+        return "Pasient: \n" +
+                super.toString() +
+                "Diagnose: " + diagnose + "\n";
+    }
+}
